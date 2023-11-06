@@ -1,0 +1,23 @@
+<ul id="navi">
+    <li class="group">
+        <div class="title">title 1</div>
+        <ul class="sub">
+            <li><a href="#">sub1</a></li>
+            <li><a href="#">sub1</a></li>
+            <li><a href="#">sub1</a></li>
+        </ul>
+    </li>
+    <li class="group">
+        <div class="title">title 2</div>
+        <ul class="sub">
+            <li><a href="#">sub2</a></li>
+        </ul>
+    </li>
+    <li class="group">
+        <div class="title">title 3</div>
+        <ul class="sub">
+            <li><a href="#">sub3</a></li>
+            <li><a href="#">sub3</a></li>
+        </ul>
+    </li>
+</ul>

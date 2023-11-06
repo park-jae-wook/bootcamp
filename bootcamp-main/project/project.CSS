@@ -1,0 +1,196 @@
+
+<style>
+** {
+    margin:0;
+    padding:0;
+    border:0;
+    font: 맑은고딕;
+    text-decoration:none;
+    letter-spacing:0px;
+}
+html {height:100%;}
+
+.wrap
+{
+    width:100%;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.menubar
+{
+    width:100%;
+    margin: 0 auto;
+    border:none;
+    background: #1D375F;
+    overflow: hidden;
+}
+.menuLogo
+{
+    width:100px;
+    float:left;
+    font-size: 10;
+}
+
+.menuItem
+{
+    float:right;
+}
+
+.menubar ul
+{
+    background: #1D375F;
+    height:50px;
+    list-style:none;
+}
+
+.menubar li
+{
+    float:left;
+}
+
+.menubar a
+{
+    color:#FFFFFF;
+    display:block;
+    font-weight:normal;
+    line-height:49px;
+    padding:1px 25px;
+    text-align:center;
+}
+
+.menubar li a:hover,
+.menubar ul li:hover a {
+    background: #636363;
+    color:#FFFFFF;
+}
+
+.menubar li:hover ul
+{
+    display:block;
+}
+
+.menubar li:hover li a
+{
+    background:none;
+}
+
+.menubar li ul
+{
+    background: #1D375F;
+    display:none;
+    height:auto;
+    position:absolute;
+    z-index:999;
+}
+
+.menubar li li a ,
+.menubar li li
+{
+    background: #1D375F;
+    display:block;
+    float:none;
+    min-width:135px;
+}
+
+.menubar li ul a
+{
+    display:block;
+    height:50px;
+    font-size:12px;
+    font-style:normal;
+    padding:0px 10px 0px 15px;
+    text-align:left;
+}
+
+.menubar li ul a:hover,
+.menubar li ul li:hover a{
+    background: #636363;
+    border:0px;
+    color:#ffffff;
+}
+.under{
+text-align: center;
+background-color: gray;
+}
+.Mark{
+  width : 100px;
+  height:  100px;
+  float : left;
+  margin: : 500px;
+}
+
+.Mark{
+  width : 100px;
+  height:  100px;
+  float : left;
+  margin: : 500px;
+}
+
+
+.under{
+text-align: center;
+background-color: gray;
+}
+table {
+  width: 100%;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+  text-align: center;
+margin: 50px;
+}
+th, td {
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+  text-align: center;
+margin: 50px;
+}
+.vi{
+    display : inline;
+}
+.photo{
+  width: 500px;
+  height: 300px;
+}
+    body {
+        margin:20px auto;
+        padding: 0;
+        font-family:"맑은 고딕";
+        font-size:0.9em;
+}
+    ul#navi {
+        width: 200px;
+        text-indent: 10px;
+}
+    ul#navi, ul#navi ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+}
+    li.group {
+        margin-bottom: 3px;
+}
+    li.group div.title {
+        height: 35px;
+        line-height: 35px;
+        background:#9ab92e;
+        cursor:pointer;
+}
+    ul.sub li {
+        margin-bottom: 2px;
+        height:35px;
+        line-height:35px;
+        background:#f4f4f4;
+        cursor:pointer;
+}
+    ul.sub li a {
+        display: block;
+        width: 100%;
+        height:100%;
+        text-decoration:none;
+        color:#000;
+}
+    ul.sub li:hover {
+        background:#cf0;
+}
+</style>
